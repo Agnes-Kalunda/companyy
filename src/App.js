@@ -1,4 +1,5 @@
 import AboutUs from "./components/AboutUs"
+import ContactUs from "./components/ContactUs"
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -19,8 +20,9 @@ function App() {
     <>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      
+     
       <AboutUs />
+      <ContactUs />
       
       </ThemeProvider>
     </>
