@@ -4,6 +4,7 @@ import EngineeringOutlinedIcon from '@mui/icons-material/EngineeringOutlined';
 import AllInclusiveIcon from '@mui/icons-material/AllInclusive';
 import PaidOutlinedIcon from '@mui/icons-material/PaidOutlined';
 import useStyles from '../styles/styles';
+import { shadows } from '@mui/system';
 
 const Section = () => {
   const classes = useStyles();
@@ -28,7 +29,7 @@ const Section = () => {
     },
   ];
   return (
-    <Box sx={{ flexGrow: 1, minHeight: '400px' }}>
+    <Box sx={{ flexGrow: 1, minHeight: '400px' , boxShadow: 3}}>
       <Grid container className={classes.sectionGridContainer}>
         {sectionItems.map((item) => (
           <Grid

@@ -1,10 +1,10 @@
-import AboutUs from "./components/AboutUs"
-import ContactUs from "./components/ContactUs"
-import Footer from "./components/Footer"
 import Hero from "./components/Hero"
+import Header from "./components/Header"
 import Section from "./components/Section"
 import Testimonial from "./components/Testimonial"
-import Header from "./components/Header"
+import ContactUs from "./components/ContactUs"
+import Footer from "./components/Footer"
+import AboutUs from "./components/AboutUs"
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -25,14 +25,13 @@ function App() {
     <>
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Section />
       <AboutUs />
       <Testimonial />
       <ContactUs />
       <Footer />
-      
       </ThemeProvider>
     </>
 
