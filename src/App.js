@@ -3,6 +3,7 @@ import ContactUs from "./components/ContactUs"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Section from "./components/Section"
+import Testimonial from "./components/Testimonial"
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
@@ -26,6 +27,7 @@ function App() {
       <Hero />
       <Section />
       <AboutUs />
+      <Testimonial />
       <ContactUs />
       <Footer />
       
